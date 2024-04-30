@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+/* Contenedor */
+.contenedor {
+    background-color: #245076;
+    margin: 0 auto;
+    width: 900px;
+}
+
+/* Colores Generales */
+p {
+    color: white;
+}
+
+a,
+h2 {
+    color: #c6aa0a;
+
+}
+
+/* Estilos para el Main */
+main{
+    padding: 50px;
+    padding-top: 0;
+}
+/* Estilos para el Header */
+
+#imagenSuperior {
+    height: 100px;
+
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#FormBuscador {
+    background-color: #444444;
+    padding: 10px 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px#1a191960;
+}
+
+#buscador {
+    text-align: center;
+    height: 30px;
+    width: 200px;
+}
+
+#botonSubmit {
+    height: 25px;
+    width: 35px;
+    background-color: #245076;
+    color: white;
+    border: 2px solid #c0c0c0;
+    border-radius: 3px;
+    border-style: outset;
+    box-shadow: 2px 2px 2px #1a191960;
+}
+
+#text_input {
+    margin-left: 140px;
+}
+
+/* Estilos para la barra de navegacion */
+#ListaNav {
+    background-color: #487ead;
+    color: white;
+    font-size: 20px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.555);
+    border-radius: 5px;
+
+    padding: 10px 0;
+
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ListaNav>*:hover {
+    background-color: #29296646;
+    color: black;
+    cursor: pointer;
+}
+
+/* Primer area de Texto */
+
+#PrimerDivTexto{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#PrimerDivTexto ul{
+    height: 200px;
+
+    flex: 1;
+    text-align: center;
+
+    list-style: inside;
+    list-style-type: ">> ";
+
+    color: #c6aa0a;
+    font-size: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+#PrimerDivTexto ul li a{
+    color: white;
+    font-size: 17px;
+}
+
+#TextoDerecha{
+    flex: 3;
+    text-align: center;
+}
+
+#TextoDerecha p{
+    font-size: 13px;
+}
+
+#TextoDerecha h3, #TextoDerecha h2{
+    margin: 6px 0;
+    font-weight: 100;
+}
+#TextoDerecha h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el div blanco */
+
+#div_blanco{
+    background-color: white;
+    border-top: 2px solid #102638;
+    height: 50px;
+}
