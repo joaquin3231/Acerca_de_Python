@@ -17,8 +17,7 @@ p {
     color: white;
 }
 
-a,
-h2 {
+h2 , .CambioColor{
     color: #c6aa0a;
 
 }
@@ -146,5 +145,61 @@ header {
 #div_blanco{
     background-color: white;
     border-top: 2px solid #102638;
-    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-bottom: 10px;
+}
+
+.div_texto{
+    margin-top: 5px;
+    width: 300px;
+    border-top: #4f7494 solid 5px;
+    text-align: center;
+}
+
+.div_texto .titulo{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.div_texto .text_info{
+    color: black;
+    font-size: 14px;
+}
+
+.div_texto ul{
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+.div_texto li{
+    color: #4f7494;
+    list-style: square; 
+}
+
+footer{
+    background: linear-gradient(#245076 , rgb(63, 141, 209));
+    padding: 40px 165px 0;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+footer #separador{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+footer > p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+footer p{
+    color: #89c6fc;
+
 }
